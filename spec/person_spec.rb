@@ -9,7 +9,7 @@ RSpec.describe Person do
     expect(person2).to be_an_instance_of(Person)
     expect(person1.name).to eq("Squirt")
     expect(person2.name).to eq("Bulleit")
-    expect(person1.galleon).to eq(1000)
-    expect(person2.galleon).to eq(500)
+    expect(person1.galleons).to eq(1000)
+    expect(person2.galleons).to eq(500)
   end
 end
